@@ -26,7 +26,7 @@ package gopass
 import (
 	"syscall"
 
-	"golang.org/x/sys/unix"
+	"github.com/golang/sys/unix"
 )
 
 type terminalState struct {
